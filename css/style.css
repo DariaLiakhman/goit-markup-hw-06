@@ -69,6 +69,7 @@ address {
   display: flex;
   flex-grow: 1;
   justify-content: space-between;
+  align-items: center;
 }
 .header-nav {
   display: flex;
@@ -98,6 +99,7 @@ address {
 .header-menu-item {
 }
 .header-menu-link {
+  display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -1065,7 +1067,8 @@ address {
     width: 1158px;
   }
   .header {
-    padding: 24px 0;
+    /* padding: 24px 0; */
+    padding: 0;
   }
   .header-menu-list {
     display: flex;
