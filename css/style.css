@@ -83,7 +83,7 @@ address {
   text-transform: uppercase;
   color: #4d5ae5;
   align-items: center;
-  margin-right: 76px;
+  /* margin-right: 76px; */
 }
 .header-logo span {
   color: #2e2f42;
@@ -154,6 +154,7 @@ address {
   border: none;
   background: transparent;
   margin-left: auto;
+  padding: 0;
 }
 .mob-menu {
   position: fixed;
@@ -179,6 +180,8 @@ address {
   background-color: #e7e9fc;
   height: 24px;
   width: 24px;
+  justify-content: center;
+  align-items: center;
 }
 .modal-icon-close {
 }
@@ -218,8 +221,8 @@ address {
   justify-content: center;
   flex-direction: row;
   gap: 40px;
-  width: 280px;
-  height: 40px;
+  /* width: 280px;
+  height: 40px; */
 
   margin: 48px auto 0 auto;
 }
@@ -429,10 +432,11 @@ address {
   justify-content: center;
   flex-direction: row;
   gap: 24px;
-  width: 232px;
-  height: 40px;
-  margin-top: 8px;
-  margin-left: 16px;
+  /* width: 232px;
+  height: 40px; */
+  /* margin-top: 8px; */
+  /* margin-left: 16px; */
+  margin: 8px auto 0 auto;
 }
 
 .social-icons-link {
@@ -586,8 +590,8 @@ address {
   text-align: center;
 }
 .social-contact {
-  width: 208px;
-  height: 80px;
+  /* width: 208px;
+  height: 80px; */
   /* margin-right: 80px; */
   margin: 0 auto 72px auto;
 }
@@ -599,8 +603,8 @@ address {
   justify-self: center;
   flex-direction: row;
   gap: 16px;
-  width: 232px;
-  height: 40px;
+  /* width: 232px;
+  height: 40px; */
   fill: #f4f4fd;
 }
 
@@ -950,9 +954,7 @@ address {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    margin-bottom: 16px;
-    margin-top: 16px;
-    margin-right: 16px;
+    padding-right: 16px;
   }
   .header-contacts-link {
     font-size: 12px;
@@ -963,6 +965,7 @@ address {
     margin-right: 120px;
   }
   .header-menu-link {
+    padding: 24px 0;
   }
   .mob-menu {
     display: none;
@@ -1025,11 +1028,11 @@ address {
     flex-direction: row;
     flex-wrap: wrap;
     padding: 0;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
   .footer-logo-text {
     flex-direction: column;
-    margin: 0 0 72px 0;
+    margin: 0 24px 72px 0;
   }
   .social-contact {
     margin: 0 0 72px 0;
@@ -1062,7 +1065,7 @@ address {
     width: 1158px;
   }
   .header {
-    /* padding: 24px 0; */
+    padding: 24px 0;
   }
   .header-menu-list {
     display: flex;
@@ -1070,8 +1073,7 @@ address {
   .header-contacts-list {
     flex-direction: row;
     gap: 40px;
-    margin-bottom: 24px;
-    margin-top: 24px;
+    /* padding: 24px 0; */
   }
   .header-contacts-link {
     font-size: 16px;
@@ -1087,6 +1089,9 @@ address {
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/background.jpg);
+  }
+  .header-logo {
+    margin-right: 76px;
   }
   .hero-title {
     font-size: 56px;
